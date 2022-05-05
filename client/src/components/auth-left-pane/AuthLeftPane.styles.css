@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+
+#auth-left-panel {
+  background: var(--color-red);
+  min-height: 100vh;
+  background-image: linear-gradient(
+    90deg,
+    #ff9a8b 0%,
+    #ff6a88 55%,
+    #ff99ac 100%
+  );
+}
+
+#auth-left-panel .text-container {
+  padding: 3rem;
+}
+
+#auth-left-panel .text-container .logo {
+  color: #4a4a4a;
+  font-family:'Great Vibes', cursive;
+  font-size: 3rem;
+  font-weight: 600;
+}
+
+#auth-left-panel .text-container p {
+  font-size: 1.75rem;
+  font-weight: bold;
+}
+
+@media screen and (max-width: 1000px) {
+  #auth-left-panel {
+    display: none;
+  }
+}
